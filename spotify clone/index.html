@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <title>Spotify</title>
+</head>
+
+<body>
+    <div class="container flex">
+        <aside class="left  border">
+            <section class="menu innerborder">
+                <ul>
+                    <div class="logo flex">
+                        <img src="logo.svg" alt="Spotify">
+                        <h1 class="close">x</h1>
+                    </div>
+                    <li class="menulist flex"><span class="material-symbols-outlined">
+                            home
+                        </span>
+                        Home</li>
+                    <li class="menulist flex"><span class="material-symbols-outlined">
+                            search
+                        </span>
+                        Search</li>
+                </ul>
+            </section>
+
+            <section class="songlists innerborder">
+                <div class="songlistheading flex">
+                    <img src="library.svg" alt="library" width="25px">
+                    <h3>Library</h3>
+                </div>
+
+                <ul class="list-style">
+                    <!-- <li class="flex list">
+                        <img class="invert" src="musical-note.png" width="25px">
+                        <h5>song name</h5>
+
+                        <div class="play.png">
+                            <img src="play.png" width="25px">
+                        </div>
+                    </li> -->
+                </ul>
+
+            </section>
+
+        </aside>
+
+        <!-- right side -->
+        <div class="right  border">
+
+            <div class="navbar innerborder">
+                <ul class="flex">
+                    <div class="togglepagebtn">
+                        <img class="hamburger" src="hamburger.svg" alt="hamburger" hidden>
+                        <span class="material-symbols-outlined">
+                            arrow_back_ios
+                        </span>
+
+                        <span class="material-symbols-outlined">
+                            arrow_forward_ios
+                        </span>
+                    </div>
+                    <div class="buttons flex">
+                        <button>Sign up</button>
+                        <button>Log in</button>
+                    </div>
+                </ul>
+            </div>
+
+            <section class="maincontents innerborder">
+                <header class="heading flex ">
+                    <h1><a href="/">My Playlists</a></h1>
+
+                    <h4><a href="/">Show all</a></h4>
+                </header>
+
+                <article class="playlists-container flex">
+
+                </article>
+
+                <footer class="playbar">
+
+
+                    <div class="upperbar flex">
+                        <div class="songInfo"></div>
+
+                        <div class="songbuttons flex">
+
+                            <img class="invert" id="previous" src="left.png" alt="previous" width="20px">
+                            <img class="invert" id="play" src="play.png" alt="play" width="20px">
+                            <img class="invert" id="next" src="right.png" alt="next" width="20px">
+                        </div>
+
+                        <div class="songduration"></div>
+                    </div>
+
+                    <div class="seekbar">
+                        <div class="circle">
+                        </div>
+                    </div>
+
+
+
+                </footer>
+
+            </section>
+
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
